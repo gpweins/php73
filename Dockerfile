@@ -1,4 +1,4 @@
-FROM php:7.3
+FROM php:7.3-fpm
 
 COPY log.conf /usr/local/etc/php-fpm.d/zz-log.conf
 
